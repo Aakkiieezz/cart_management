@@ -1,9 +1,22 @@
 # SpringBoot-CRUD-Operations
-CRUP Operations using SpringBoot, Thymeleaf, MySQL
+## CRUD Operations using SpringBoot, Thymeleaf, MySQL
 
+Things used :
+- Spring Tools 3
+- SpringBoot v2.6.2
+- Spring Controller-Service-Repository architecture
+- Thymeleaf
+- Maven 3+
+- Java 16.0.2
+- Mysql Database
+- Tomcat Server
+- HTML5 (Bootstrap 4)
+- CRUD Functionality (Create, Read(view/display), Update, Delete)
+- Single Page Application
+
+## Screenshots of demo
 Home Page
 ![HomePage](https://user-images.githubusercontent.com/67866166/147592782-2ad7ed5e-2a3b-46a2-a4f4-1a5612112486.png)
-
 
 Add Item - Added item 10
 ![Screenshot_20211228_231649](https://user-images.githubusercontent.com/67866166/147593439-f5874db7-f01c-4d99-9b8d-f18673d0d7f9.png)
@@ -18,8 +31,6 @@ Delete Item - Deleted item 10
 
 Search - searches for any matching keyword in the entire row
 ![Screenshot_20211228_232028](https://user-images.githubusercontent.com/67866166/147593446-e7093bf7-e0d6-49fe-8fef-75b38119ea0b.png)
-
-
 
 Database - in MySQL Workbench
 ![MySQL Workbench database](https://user-images.githubusercontent.com/67866166/147592349-141ff2cf-4787-46c0-bffd-f92e3b09cb13.png)
