@@ -1,3 +1,6 @@
+Creating table is optional, since spring hibernate automatically creates if not present
+Due to mode (spring.jpa.hibernate.ddl-auto=update) in application.properties
+
 CREATE TABLE `cart_items` (
   `id` int NOT NULL AUTO_INCREMENT,
   `date` varchar(255) DEFAULT NULL,
