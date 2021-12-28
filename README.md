@@ -39,5 +39,8 @@ Delete Item - Deleted item 10
 Search - searches for any matching keyword in the entire row
 ![Screenshot_20211228_232028](https://user-images.githubusercontent.com/67866166/147593446-e7093bf7-e0d6-49fe-8fef-75b38119ea0b.png)
 
-Database - in MySQL Workbench
+## Database - in MySQL Workbench
 ![MySQL Workbench database](https://user-images.githubusercontent.com/67866166/147592349-141ff2cf-4787-46c0-bffd-f92e3b09cb13.png)
+
+## Project Folder Structure
+![Screenshot_20211229_023738](https://user-images.githubusercontent.com/67866166/147607843-e19ecc45-62e5-494b-bbae-005df2f2bd3e.png)
