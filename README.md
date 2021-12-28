@@ -2,7 +2,7 @@
 ## CRUD Operations using SpringBoot, Thymeleaf, MySQL
 
 Things used :
-- Spring Tools 3
+- Spring Tool Suite 3 or IDE (with Spring plugins) 
 - SpringBoot v2.6.2
 - Spring Controller-Service-Repository architecture
 - Thymeleaf
@@ -13,6 +13,13 @@ Things used :
 - HTML5 (Bootstrap 4)
 - CRUD Functionality (Create, Read(view/display), Update, Delete)
 - Single Page Application
+
+Project Dependencies (reflects in pom.xml file)
+- Spring Boot DevTools
+- Spring Data JPA
+- MySQL Driver
+- Thymeleaf
+- Spring Web
 
 ## Screenshots of demo
 Home Page
