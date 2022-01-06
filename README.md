@@ -8,7 +8,7 @@ Things used :
 - Thymeleaf
 - Maven 3+
 - Java 16.0.2
-- Mysql Workbench (or other Database)
+- Mysql Workbench
 - JDBC Driver
 - Tomcat Server
 - HTML5 (Bootstrap 4)
