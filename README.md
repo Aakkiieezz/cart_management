@@ -8,19 +8,20 @@ Things used :
 - Thymeleaf
 - Maven 3+
 - Java 16.0.2
-- Mysql Database
+- Mysql Workbench (or other Database)
+- JDBC Driver
 - Tomcat Server
 - HTML5 (Bootstrap 4)
 - CRUD Functionality (Create, Read(view/display), Update, Delete)
 - Single Page Application
 
-Project Dependencies
-- Spring Boot DevTools   (reflects in pom.xml file)
-- Spring Data JPA        (reflects in pom.xml file)
-- MySQL Driver           (reflects in pom.xml file)
-- Thymeleaf              (reflects in pom.xml file)
-- Spring Web             (reflects in pom.xml file)
-- JDBC Driver
+Project Dependencies (reflects in pom.xml file)
+- Spring Boot DevTools   
+- Spring Data JPA
+- MySQL Driver
+- Thymeleaf
+- Spring Web
+
 ## Screenshots of demo
 Home Page
 ![HomePage](https://user-images.githubusercontent.com/67866166/147592782-2ad7ed5e-2a3b-46a2-a4f4-1a5612112486.png)
