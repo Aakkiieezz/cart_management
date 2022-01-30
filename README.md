@@ -10,11 +10,11 @@ Things used :
   - Maven
   - Tomcat Server
   - JDBC Driver
+  - Thymeleaf
 - Spring Controller-Service-Repository architecture
-- Thymeleaf
 - Mysql Workbench
 - HTML5 (Bootstrap 4)
-- CRUD Functionality (Create, Read(view/display), Update, Delete)
+- CRUD Functionality
 - Single Page Application
 
 Project Dependencies (reflects in pom.xml file)
