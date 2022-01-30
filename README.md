@@ -8,7 +8,8 @@ Things used :
 - Spring Controller-Service-Repository architecture
 - Thymeleaf
 - Maven 3+
-- Java 16.0.2
+- openJDK version 11.0.9.1
+- Java 17
 - Mysql Workbench
 - HTML5 (Bootstrap 4)
 - CRUD Functionality (Create, Read(view/display), Update, Delete)
