@@ -43,5 +43,11 @@ Search - searches for any matching keyword in the entire row
 ## Database - in MySQL Workbench
 ![MySQL Workbench database](https://user-images.githubusercontent.com/67866166/147592349-141ff2cf-4787-46c0-bffd-f92e3b09cb13.png)
 
+## Spring Starter Project
+![Screenshot_Eclipse_20220130161542](https://user-images.githubusercontent.com/67866166/151717243-18c14c7f-d302-451e-a105-71562be0770c.png)
+
+## Project Dependencies
+![Screenshot_Eclipse_20220130202748](https://user-images.githubusercontent.com/67866166/151717253-743e826b-e51b-4a0e-aab5-8ce61e278637.png)
+
 ## Project Folder Structure
-![Screenshot_20211229_023738](https://user-images.githubusercontent.com/67866166/147607843-e19ecc45-62e5-494b-bbae-005df2f2bd3e.png)
+![Screenshot_select-area_20220131021250](https://user-images.githubusercontent.com/67866166/151717190-280f37a2-ab0d-42c7-822b-4b861a627c7a.png)
