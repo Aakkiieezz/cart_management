@@ -2,15 +2,14 @@
 ## CRUD Operations using SpringBoot, Thymeleaf, MySQL
 
 Things used :
-- Spring Tool Suite 3 or IDE (with Spring plugins) 
-- SpringBoot v2.6.2
+- Eclipse IDE (for Enterprise Java & Web Developers)
+- Spring Tool Suite 4 (Plugin)(Eclipse Marketplace) 
+- SpringBoot v2.6.3
 - Spring Controller-Service-Repository architecture
 - Thymeleaf
 - Maven 3+
 - Java 16.0.2
 - Mysql Workbench
-- JDBC Driver
-- Tomcat Server
 - HTML5 (Bootstrap 4)
 - CRUD Functionality (Create, Read(view/display), Update, Delete)
 - Single Page Application
