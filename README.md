@@ -3,13 +3,15 @@
 
 Things used :
 - Eclipse IDE (for Enterprise Java & Web Developers)
+  - openJDK version 11.0.9.1
+  - Java 17  
 - Spring Tool Suite 4 (Plugin)(Eclipse Marketplace) 
 - SpringBoot v2.6.3
+  - Maven
+  - Tomcat Server
+  - JDBC Driver
 - Spring Controller-Service-Repository architecture
 - Thymeleaf
-- Maven 3+
-- openJDK version 11.0.9.1
-- Java 17
 - Mysql Workbench
 - HTML5 (Bootstrap 4)
 - CRUD Functionality (Create, Read(view/display), Update, Delete)
