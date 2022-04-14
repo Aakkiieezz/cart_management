@@ -60,12 +60,12 @@ Extensions installed :
 - Spring Boot Extension Pack
 
 Steps through command pallete (Ctrl+Shift+p) :
-Spring Initializr: Create a Maven Project
-Specific Spring Boot version - 2.6.6
-Specific project  language - Java
-Input Group Id - com.cart
-Artifact ID - project_cart_management
-Specific packaging type - Jar
-Specific Java version - 18
-Search for dependencies - (Spring Boot DevTools , Spring Data JPA , MySQL Driver , Thymeleaf , Spring Web)
-Folder Name - CartManagement
+- Spring Initializr: Create a Maven Project
+- Specific Spring Boot version - 2.6.6
+- Specific project  language - Java
+- Input Group Id - com.cart
+- Artifact ID - project_cart_management
+- Specific packaging type - Jar
+- Specific Java version - 18
+- Search for dependencies - (Spring Boot DevTools , Spring Data JPA , MySQL Driver , Thymeleaf , Spring Web)
+- Folder Name - CartManagement
