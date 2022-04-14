@@ -67,5 +67,10 @@ Steps through command pallete (Ctrl+Shift+p) :
 - Artifact ID - project_cart_management
 - Specific packaging type - Jar
 - Specific Java version - 18
-- Search for dependencies - (Spring Boot DevTools , Spring Data JPA , MySQL Driver , Thymeleaf , Spring Web)
+- Search for dependencies :
+  - Spring Boot DevTools
+  - Spring Data JPA
+  - MySQL Driver
+  - Thymeleaf
+  - Spring Web
 - Folder Name - CartManagement
