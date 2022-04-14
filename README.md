@@ -45,6 +45,7 @@ Search - searches for any matching keyword in the entire row
 ## Database - in MySQL Workbench
 ![MySQL Workbench database](https://user-images.githubusercontent.com/67866166/147592349-141ff2cf-4787-46c0-bffd-f92e3b09cb13.png)
 
+## ECLIPSE
 ## Spring Starter Project
 ![Screenshot_Eclipse_20220130161542](https://user-images.githubusercontent.com/67866166/151717243-18c14c7f-d302-451e-a105-71562be0770c.png)
 
@@ -53,3 +54,18 @@ Search - searches for any matching keyword in the entire row
 
 ## Project Folder Structure
 ![Screenshot_select-area_20220131021250](https://user-images.githubusercontent.com/67866166/151717190-280f37a2-ab0d-42c7-822b-4b861a627c7a.png)
+
+## VSCode
+Extensions installed :
+- Spring Boot Extension Pack
+
+Steps through command pallete (Ctrl+Shift+p) :
+Spring Initializr: Create a Maven Project
+Specific Spring Boot version - 2.6.6
+Specific project  language - Java
+Input Group Id - com.cart
+Artifact ID - project_cart_management
+Specific packaging type - Jar
+Specific Java version - 18
+Search for dependencies - (Spring Boot DevTools , Spring Data JPA , MySQL Driver , Thymeleaf , Spring Web)
+Folder Name - CartManagement
