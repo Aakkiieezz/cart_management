@@ -64,7 +64,7 @@ Steps through command pallete (Ctrl+Shift+p) :
 - Specific Spring Boot version - 2.6.6
 - Specific project  language - Java
 - Input Group Id - com.cart
-- Artifact ID - project_cart_management
+- Artifact ID - cart_management
 - Specific packaging type - Jar
 - Specific Java version - 18
 - Search for dependencies :
