@@ -1,16 +1,7 @@
 # SpringBoot-CRUD-Operations
 ## CRUD Operations using SpringBoot, Thymeleaf, MySQL
 
-Things used :
-- Eclipse IDE (for Enterprise Java & Web Developers)
-  - openJDK version 11.0.9.1
-  - Java 17  
-- Spring Tool Suite 4 (Plugin)(Eclipse Marketplace) 
-- SpringBoot v2.6.3
-  - Maven
-  - Tomcat Server
-  - JDBC Driver
-  - Thymeleaf
+Used :
 - Spring Controller-Service-Repository architecture
 - Mysql Workbench
 - HTML5 (Bootstrap 4)
@@ -45,15 +36,22 @@ Search - searches for any matching keyword in the entire row
 ## Database - in MySQL Workbench
 ![MySQL Workbench database](https://user-images.githubusercontent.com/67866166/147592349-141ff2cf-4787-46c0-bffd-f92e3b09cb13.png)
 
-## ECLIPSE
+
+## ECLIPSE (for Enterprise Java & Web Developers)
+- Spring Tool Suite 4 (Plugin)(Eclipse Marketplace)
 ## Spring Starter Project
 ![Screenshot_Eclipse_20220130161542](https://user-images.githubusercontent.com/67866166/151717243-18c14c7f-d302-451e-a105-71562be0770c.png)
-
 ## Project Dependencies
 ![Screenshot_Eclipse_20220130202748](https://user-images.githubusercontent.com/67866166/151717253-743e826b-e51b-4a0e-aab5-8ce61e278637.png)
-
 ## Project Folder Structure
 ![Screenshot_select-area_20220131021250](https://user-images.githubusercontent.com/67866166/151717190-280f37a2-ab0d-42c7-822b-4b861a627c7a.png)
+
+
+
+
+
+
+
 
 ## VSCode
 Extensions installed :
