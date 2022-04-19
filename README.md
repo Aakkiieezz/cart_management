@@ -40,7 +40,7 @@ Steps through command pallete (Ctrl+Shift+p) :
 - Spring Initializr: Create a Maven Project
 - Specific Spring Boot version - 2.6.6
 - Specific project  language - Java
-- Input Group Id - com.cart
+- Input Group Id - cart
 - Artifact ID - cart_management
 - Specific packaging type - Jar
 - Specific Java version - 18
