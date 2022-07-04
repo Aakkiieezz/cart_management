@@ -36,6 +36,7 @@ Used :
 ## VSCode
 Extensions installed :
 - Spring Boot Extension Pack
+
 Steps through command pallete (Ctrl+Shift+p) :
 - Spring Initializr: Create a Maven Project
 - Specific Spring Boot version - 2.6.6
