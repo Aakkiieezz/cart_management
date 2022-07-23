@@ -1,0 +1,35 @@
+SpringBoot is not a replacement of Spring Framwork. As a developer we still use Spring Framwork, But, SpringBoot is just a in-between developer and Spring Framwork.
+So for every project we have jar files and lots of configuration to do, so SpringBoot what it does, it gives us dependencies and configuration readymade.
+Inshort SpringBoot gives you production ready application, so that we can focus on convention and not configuration.
+Example it gives a Tomcat server embedded into a jar file.
+To modify configuration : application.properties
+
+
+Dependency Injection
+Dependency injection is basically providing the objects that an object needs (its dependencies) instead of having it construct them itself.
+It's a very useful technique for testing, since it allows dependencies to be mocked
+
+
+By default spring follows Singleton design pattern
+(Singleton: creating only 1 object, either you need/don't need/need twice/etc)
+(Prototype: creating object everytime we ask for it)
+
+Annotations               Meaning
+@SpringBootApplication  : @Configuration + @EnableAutoConfiguration + @ComponentScan
+
+@Autowired              : Searches for object in spring container
+
+@Controller             : A specialization of @Component annotation.
+                          Indicates that a particular class serves the role of a controller.
+                          Spring Controller annotation is typically used in combination with annotated handler methods based on @RequestMapping annotation.
+
+@Service                : Marks the class as a service provider.
+
+@GetMapping             : A specialized version of @RequestMapping(method = RequestMethod.GET) annotation
+                          @GetMapping annotated methods in the @Controller annotated classes handle the HTTP GET requests matched with given URI expression
+
+@PostMapping            : A specialized version of @RequestMapping(method = RequestMethod.POST) annotation
+                          @PostMapping annotated methods in the @Controller annotated classes handle the HTTP POST requests matched with given URI expression
+
+@Repository             : A specialization of @Component annotation.
+                          Indicates that the class provides the mechanism for storage, retrieval, update, delete and search operation on objects
