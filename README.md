@@ -1,4 +1,3 @@
-# SpringBoot-CRUD-Operations
 ## CRUD Operations using SpringBoot, Thymeleaf, MySQL
 
 Used :
