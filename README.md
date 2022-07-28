@@ -1,4 +1,4 @@
-# CRUD Operations using SpringBoot, Thymeleaf, MySQL
+# CRUD Operations using SpringBoot + Thymeleaf + MySQL
 
 Used :
 - Spring Controller-Service-Repository architecture
