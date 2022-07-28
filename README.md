@@ -1,7 +1,7 @@
 # CRUD Operations using SpringBoot + Thymeleaf + MySQL
 
 Used :
-- Spring Controller-Service-Repository architecture
+- Layered architecture (Controller <--> Service <--> Repository)
 - Mysql Workbench
 - HTML5 (Bootstrap 4)
 - CRUD Functionality
