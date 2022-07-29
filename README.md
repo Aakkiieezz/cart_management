@@ -50,4 +50,3 @@ Steps through command pallete (Ctrl+Shift+p) :
   - MySQL Driver
   - Thymeleaf
   - Spring Web
-- Folder Name - CartManagement
