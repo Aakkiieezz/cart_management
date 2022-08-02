@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import cart.cart_management.entity.Item;
 import cart.cart_management.service.CartService;
 
 @Controller
+@RequestMapping("/api/items")
 public class CartController
 {
 	@Autowired
@@ -22,53 +24,50 @@ public class CartController
 	@GetMapping("/")
 	public String home(Model m, @Param("keyword") String keyword)
 	{
-		//		System.out.println("Inside CartController class -> home method");
-		List<Item> itemsList = service.getAllItems(keyword);
+		List<Item> itemsList = service.getItems(keyword);
 		m.addAttribute("itemsListMapping", itemsList);
 		m.addAttribute("keyword", keyword);
 		return "homePage";
 	}
 
-	@GetMapping("/addItemPage_mapping")
-	public String addItemForm()
+	@GetMapping("/createItemPage")
+	public String createItemForm()
 	{
-		//		System.out.println("Inside CartController class -> addItemForm method");
-		return "addItemPage";
+		return "createItemPage";
 	}
 
-	@PostMapping("/addItem_mapping")
-	public String itemRegister(@ModelAttribute Item i, HttpSession session)
+	@PostMapping("/createItem")
+	public String createItem(@ModelAttribute Item i, HttpSession session)
 	{
-		//		System.out.println("Inside CartController class -> itemRegister method");
-		service.addItem(i);
+		service.createItem(i);
 		session.setAttribute("msg", "Item Added Successfully...!");
-		return "redirect:/";
+		return "redirect:/api/items/";
 	}
 
-	@GetMapping("/updateItemPage_mapping/{id}")
+	@GetMapping("/updateItemPage/{id}")
 	public String editItem(@PathVariable int id, Model m)
 	{
-		//		System.out.println("Inside CartController class -> editItem method");
-		Item i = service.getItemByID(id);
+		Item i = service.getItem(id);
 		m.addAttribute("singleItem", i);
 		return "updateItemPage";
 	}
 
-	@PostMapping("/updateItem_mapping")
+	// using same service method for addItem
+	// cannot use @PutMappig because html <form> method supports only get, post
+	@PostMapping("/updateItem")
 	public String updateItem(@ModelAttribute Item i, HttpSession session)
 	{
-		//		System.out.println("Inside CartController class -> updateItem method");
-		service.addItem(i);
+		service.createItem(i);
 		session.setAttribute("msg", "Item Updated Successfully...!");
-		return "redirect:/";
+		return "redirect:/api/items/";
 	}
 
-	@GetMapping("/deleteItem_mapping/{id}")
+	// cannot use @DeleteMapping because thymeleaf sends data via GET method
+	@GetMapping("/deleteItem/{id}")
 	public String deleteItem(@PathVariable int id, HttpSession session)
 	{
-		//		System.out.println("Inside CartController class -> deleteItem method");
-		service.deleteItemByID(id);
+		service.deleteItem(id);
 		session.setAttribute("msg", "Item Deleted Successfully...!");
-		return "redirect:/";
+		return "redirect:/api/items/";
 	}
 }

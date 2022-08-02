@@ -1,27 +1,32 @@
 <!doctype html>
 <html lang="en" xmlns="http://thymeleaf.com">
+
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<title>Home Page</title>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<title>Home Page</title>
 </head>
+
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
 		<img th:src="@{/cartIcon.png}" width="40" height="40" alt="Cart">
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
-		</button>
+		</button> -->
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a class="nav-link" href="/">Home<span class="sr-only">(current)</span>
-				</a></li>
-				<li class="nav-item active"><a class="nav-link" href="addItemPage_mapping">Add Item</a></li>
+				<li class="nav-item active"><a class="nav-link" href="/api/items/">Home<span
+							class="sr-only">(current)</span>
+					</a></li>
+				<li class="nav-item active"><a class="nav-link" href="/api/items/createItemPage">Create Item</a></li>
 			</ul>
-			<form class="form-inline my-2 my-lg-0" th:action="@{/}">
-				<input class="form-control" type="search" placeholder="Search" aria-label="Search" name="keyword" id="keyword">
+			<form class="form-inline my-2 my-lg-0" th:action="@{/api/items/}">
+				<input class="form-control" type="search" placeholder="Search" aria-label="Search" name="keyword"
+					id="keyword">
 				&nbsp;
 				<button class="btn btn-light" type="submit">Search</button>
 				&nbsp;
@@ -51,22 +56,29 @@
 					<td th:text="${i.price}"></td>
 					<td th:text="${i.date}"></td>
 					<td>
-						<a class="btn btn-sm btn-primary" th:href="@{'/updateItemPage_mapping/'+${i.id}}">Update</a>
-						<a class="btn btn-sm btn-danger" th:href="@{'/deleteItem_mapping/'+${i.id}}">Delete</a>
+						<a class="btn btn-sm btn-primary" th:href="@{'/api/items/updateItemPage/'+${i.id}}">Update</a>
+						<a class="btn btn-sm btn-danger" th:href="@{'/api/items/deleteItem/'+${i.id}}">Delete</a>
 					</td>
 				</tr>
 			</tbody>
 		</table>
 	</div>
-	<script type="text/javascript">
-		function clearSearch() {
-			window.location = "[[@{/}]]";
-		}
-	</script>
+	<script type=" text/javascript">
+							function clearSearch() {
+							window.location = "[[@{/api/items/}]]";//doubt
+							}
+							</script>
 	<!-- Optional JavaScript -->
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
 </body>
+
 </html>

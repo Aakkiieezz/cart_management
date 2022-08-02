@@ -13,7 +13,7 @@ public class CartService
 	@Autowired
 	private CartRepository repo;
 
-	public List<Item> getAllItems(String keyword)
+	public List<Item> getItems(String keyword)
 	{
 		//		System.out.println("Inside Service class -> getAllItems method");
 		if(keyword!=null)
@@ -21,20 +21,20 @@ public class CartService
 		return repo.findAll();
 	}
 
-	public Item getItemByID(int id)
+	public Item getItem(int id)
 	{
 		//		System.out.println("Inside Service class -> getItemByID method");
-		Optional<Item> i = repo.findById(id);
-		return i.get();
+		Optional<Item> item = repo.findById(id);
+		return item.get();
 	}
 
-	public void addItem(Item i)
+	public void createItem(Item item)
 	{
 		//		System.out.println("Inside Service class -> addItem method");
-		repo.save(i);
+		repo.save(item);
 	}
 
-	public void deleteItemByID(int id)
+	public void deleteItem(int id)
 	{
 		//		System.out.println("Inside Service class -> deleteItemByID method");
 		repo.deleteById(id);
