@@ -1,4 +1,4 @@
-# CRUD Operations using SpringBoot + Thymeleaf + MySQL
+# Cart management using SpringBoot + Hibernate + Thymeleaf
 
 Used :
 - Layered architecture (Controller <--> Service <--> Repository)
