@@ -22,33 +22,3 @@ Search - searches for any matching keyword in the entire row
 ![Screenshot_20211228_232028](https://user-images.githubusercontent.com/67866166/147593446-e7093bf7-e0d6-49fe-8fef-75b38119ea0b.png)
 Database - in MySQL Workbench
 ![MySQL Workbench database](https://user-images.githubusercontent.com/67866166/147592349-141ff2cf-4787-46c0-bffd-f92e3b09cb13.png)
-
-## ECLIPSE (for Enterprise Java & Web Developers)
-- Spring Tool Suite 4 (Plugin)(Eclipse Marketplace)
-### Spring Starter Project
-![Screenshot_Eclipse_20220130161542](https://user-images.githubusercontent.com/67866166/151717243-18c14c7f-d302-451e-a105-71562be0770c.png)
-### Project Dependencies (reflects in pom.xml file)
-![Screenshot_Eclipse_20220130202748](https://user-images.githubusercontent.com/67866166/151717253-743e826b-e51b-4a0e-aab5-8ce61e278637.png)
-### Project Folder Structure
-![Screenshot_select-area_20220131021250](https://user-images.githubusercontent.com/67866166/151717190-280f37a2-ab0d-42c7-822b-4b861a627c7a.png)
-
-## VSCode
-Extensions installed :
-- Spring Boot Extension Pack
-- Lombok Annotations Support for VS Code
-
-Steps through command pallete (Ctrl+Shift+p) :
-- Spring Initializr: Create a Maven Project
-- Specific Spring Boot version - 2.6.6
-- Specific project  language - Java
-- Input Group Id - cart
-- Artifact ID - cart_management
-- Specific packaging type - Jar
-- Specific Java version - 18
-- Search for dependencies (reflects in pom.xml file):
-  - Spring Boot DevTools
-  - Spring Data JPA
-  - MySQL Driver
-  - Spring Web
-  - Thymeleaf
-  - Lombok (modified - included latest version)
